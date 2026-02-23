@@ -1,7 +1,18 @@
-# Virtual Environment (exclude dependency folders but keep project files)
+# Virtual Environment (exclude only dependency folders)
 .venv/Lib/
 .venv/Scripts/
 .venv/share/
+.venv/pyvenv.cfg
+
+# Allow project files in .venv/
+!.venv/*.py
+!.venv/*.ipynb
+!.venv/*.txt
+!.venv/*.urdf
+!.venv/shapes/
+!.venv/data/
+!.venv/advanced_cw_data/
+
 venv/Lib/
 venv/Scripts/
 venv/share/
