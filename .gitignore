@@ -1,8 +1,10 @@
-# Virtual Environment
-.venv/
-venv/
-ENV/
-env/
+# Virtual Environment (exclude dependency folders but keep project files)
+.venv/Lib/
+.venv/Scripts/
+.venv/share/
+venv/Lib/
+venv/Scripts/
+venv/share/
 
 # Python
 __pycache__/
